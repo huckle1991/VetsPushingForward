@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vets Pushing Forward</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #003049;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #ffd60a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #003049;
+    }
+    .donate-button {
+      background-color: #d62828;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003049;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vets Pushing Forward</h1>
+    <p>Helping homeless or at-risk veterans with educational tools to succeed</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Our Mission</h2>
+    <p>Vets Pushing Forward is dedicated to empowering homeless and at-risk veterans by providing access to education, skill development, and career tools to help them thrive in civilian life.</p>
+  </section>
+
+  <section id="programs">
+    <h2>What We Do</h2>
+    <ul>
+      <li>Provide access to GED and vocational training programs</li>
+      <li>Offer resume-building and job readiness workshops</li>
+      <li>Distribute laptops and study materials</li>
+      <li>Connect veterans with mentorship and mental health resources</li>
+    </ul>
+  </section>
+
+  <section id="donate">
+    <h2>Support Our Veterans</h2>
+    <p>Your donation helps provide essential tools and opportunities for veterans in need.</p>
+    <button class="donate-button" onclick="window.location.href='https://www.paypal.com/donate'">Donate Now</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@vetspushingforward.org</p>
+    <p>Phone: (602) 820-2404</p>
+    <p>Follow us on 
+      <a href="#">Facebook</a>, 
+      <a href="#">Instagram</a>, 
+      <a href="#">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Vets Pushing Forward. All rights reserved.</p>
+  </footer>
+</body>
+</html>
